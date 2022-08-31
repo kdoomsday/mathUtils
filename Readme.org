@@ -2,3 +2,6 @@
 Generic math utils used in assorted [[https://projecteuler.net][Project Euler]] excercises.
 
 Attempts to give some utilities to ease development and be fast, if possible.
+
+Utilities get worked on and added as they become necessary to me solving
+problems, so there is no particular order or schedule.
