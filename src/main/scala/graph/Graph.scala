@@ -40,7 +40,7 @@ object Graph {
     while(!fringe.isEmpty) {
       val (cost, current) = findBestCandidate(fringe)
       fringe = fringe - ((cost, current))
-      if(current.head equals goal)
+      if (current.head == goal)
         return current.reverse
       else if (!closed.contains(current.head )) {
         closed = closed + current.head
@@ -83,7 +83,7 @@ object Graph {
     while(!fringe.isEmpty) {
       val (cost, current) = findBestCandidate(fringe)
       fringe -= ((cost, current))
-      if(current.head equals goal)
+      if(current.head == goal)
         return current.reverse
       else if (!closed.contains(current.head )) {
         closed += current.head

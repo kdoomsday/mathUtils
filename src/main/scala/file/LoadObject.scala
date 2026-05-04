@@ -12,14 +12,14 @@ object LoadObject {
 
   /** Load an Int matrix from a file */
   def loadMatrix(filename: String, sep: String = ","): Array[Array[Int]] = {
-    val lines = scala.io.Source.fromFile(filename).getLines
+    val lines = scala.io.Source.fromFile(filename).getLines()
     lines.toArray.map(line => numerizer(line, sep))
   }
 
   /** Load an Int matrix from a file */
   def loadMatrixResource(resource: String, sep: String = ","): Array[Array[Int]] = {
     val cl = Thread.currentThread().getContextClassLoader()
-    val lines = scala.io.Source.fromInputStream(cl.getResourceAsStream(resource)).getLines
+    val lines = scala.io.Source.fromInputStream(cl.getResourceAsStream(resource)).getLines()
     lines.toArray.map(line => numerizer(line, sep))
   }
 }

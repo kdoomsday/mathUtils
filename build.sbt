@@ -2,7 +2,7 @@ name := "mathUtils"
 
 version := "1.1"
 
-scalaVersion := "3.1.3"
+scalaVersion := "3.8.3"
 
 scalacOptions ++= Seq("-unchecked", "-deprecation", "-feature")
 
