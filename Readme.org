@@ -1,5 +1,5 @@
 #+title: Math Utils
-Generic math utils used in assorted [[https://projecteuler.net][Project Euler]] excercises.
+Generic math utils used in assorted [[https://projecteuler.net][Project Euler]] exercises.
 
 Attempts to give some utilities to ease development and be fast, if possible.
 
